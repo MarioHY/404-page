@@ -5,7 +5,7 @@
 [English](./README.md) | [简体中文](./README_zh.md)
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Stars](https://img.shields.io/github/stars/MarioHY?style=flat)](https://github.com/MarioHY/404-page/)
+[![Stars](https://img.shields.io/github/stars/MarioHY/404-page?style=flat)](https://github.com/MarioHY/404-page/)
 
 **A magical 404 error page. Combining dynamic anime backgrounds with an interactive magic circle.**
 
