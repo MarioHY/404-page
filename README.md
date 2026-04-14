@@ -9,7 +9,7 @@
 
 **A magical 404 error page. Combining dynamic anime backgrounds with an interactive magic circle.**
 
-[✨ View Live Demo](https://mariohy.github.io/error) · [🐞 Report Bug](https://github.com/MarioHY/404-page/issues)
+[✨ View Live Demo](https://mariohy.github.io/404-page/404_en.html) · [🐞 Report Bug](https://github.com/MarioHY/404-page/issues)
 
 </div>
 
