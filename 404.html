@@ -27,7 +27,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            opacity: 0; /* 初始隐藏 */
+            opacity: 0; 
             display: block;
             transition: opacity 1s ease-in;
             background: #1a1a1a;
@@ -269,9 +269,8 @@
             console.log('%c(ﾉ>ω<)ﾉ ⚙️ 狂风臣服，万物逆转！', 'color: #ba68c8; font-family: serif;');
             console.log('%cΔ 迷途的灵魂啊，在此献上你的魔力，随咱一同开启通往新世界的大门！', 'color: #ba68c8; font-family: serif;');
         })();
-        // [0] 专用加载提示，其余为随机显示
         const catQuotes = [
-            "正在注入魔力，重置因果律喵！", // [0] 切换加载专用
+            "正在注入魔力，重置因果律喵！", // [0]切换加载专用
             "呜哇！空间节点刚刚打了个盹，传送门就溜走了喵…(｡>ㅅ<｡)",
             "哎嘿？也许页面变成了猫薄荷小鱼干跑掉了喵~主人愿意和我玩会儿嘛？(ゝω・)´",
             "喵呜！异世界的裂缝正悄悄张开，记得抓住咱的小尾巴不要迷路喵 (っ °Д °;)っ",
@@ -316,7 +315,6 @@
                 els.bg.style.opacity = '0';
                 await new Promise(r => setTimeout(r, 600));
                 els.bg.src = newImgUrl;
-                // 避免展示 loading 文案
                 let quoteIdx;
                 if (catQuotes.length > 1) {
                     do {
@@ -338,7 +336,6 @@
             }
         }
         document.addEventListener('DOMContentLoaded', () => {
-            // 初始文案不显示 loading
             let idx = Math.floor(Math.random() * (catQuotes.length - 1)) + 1;
             els.msg.innerText = catQuotes[idx];
             els.trigger.addEventListener('click', performSwitch);
