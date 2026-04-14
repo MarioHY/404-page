@@ -9,7 +9,7 @@
 
 **一个充满魔力的 404 错误页面，结合了动态二次元背景与可交互的魔法阵特效。**
 
-[✨ 点击查看在线演示](https://mariohy.github.io/error) · [🐞 反馈问题](https://github.com/MarioHY/404-page/issues)
+[✨ 点击查看在线演示](https://mariohy.github.io/404-page/404.html) · [🐞 反馈问题](https://github.com/MarioHY/404-page/issues)
 
 </div>
 
