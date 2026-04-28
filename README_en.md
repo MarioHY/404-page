@@ -43,7 +43,3 @@ Simply copy the contents of `404.html` from this project into your own project's
 ## 📜 License
 
 This project is licensed under **CC BY-NC-SA 4.0**.
-
-1. **Non-Commercial**: Not for use in profitable websites or services.
-2. **Attribution**: Must retain the original author's attribution.
-3. **ShareAlike**: Derivative works must use the same license.
